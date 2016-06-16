@@ -1,0 +1,29 @@
+<div class='row'>
+	<div class='board col s12'>
+		<div class='col s2'>
+			<div class='counter'>
+				<p>
+					Clicks: <span id='clicks'>0</span>
+				</p>
+				<p id='last-game'></p>
+			</div>
+		</div>
+		<div class='col s8'>
+			<% 16.times do |i| %>
+				<div class='col s3'>
+					<div class='card'>
+						<span class='content'>
+							<img src=<%= @content_arr[i] %> alt="">
+						</span>
+					</div>
+				</div>
+			<% end %>
+		</div>
+		<div class='banner col s6 offset-s3 center'>
+			You Win
+		</div>
+	</div>
+	<div class='center'>
+		<button class='reset btn'>Play Again</button>
+	</div>
+</div>

@@ -1,0 +1,87 @@
+html {
+	background: url(http://static1.squarespace.com/static/543c4cbce4b0c63f5a37ec43/t/543dca65e4b0fffb457491fd/1413335687547/chapel-bw.jpg?format=2500w) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-top: 20px;
+font-family: 'Fredoka One', cursive;
+}
+
+.card {
+	height: 130px;
+	line-height: 130px;
+	text-align: center;
+	font-size: 90px;
+	background-color: #6D4A8E;
+	border-radius: 10px;
+}
+
+.content {
+	display: none;
+}
+
+.clicked {
+	background-color: #E5E5C0;
+}
+
+.matched {
+	background-color: #ACFF7F;
+	img {
+		opacity: 0.5;
+	}
+}
+
+.board {
+	position: relative;
+}
+
+.banner {
+	font-size: 120px;
+	position: absolute;
+	margin-top: 200px;
+	line-height: 200px;
+	height: 200px;
+	display: none;
+	background-color: #4EBED8;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.9)
+}
+
+.reset {
+	display: none;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
+
+.reset:hover {
+	background-color: black;
+	color: #6D4A8E;
+}
+
+.counter {
+	background-color: black;
+	border-radius: 10px;
+	padding: 10px;
+	height: 50px;
+	width: 95%;
+	color: yellow;
+	font-size: 18px;
+}
+
+.counter p {
+	margin: 0;
+}
+
+.large-counter {
+	height: 70px
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  overflow: hidden;
+	border-radius: 10px;
+}
